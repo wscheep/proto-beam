@@ -20,4 +20,5 @@ extend google.protobuf.MessageOptions {
 extend google.protobuf.FieldOptions {
     FieldRewriteRule field_rewrite = 66666666;
     FieldMeta field_meta = 66666667;
+    bool flatten = 66666668;
 }
